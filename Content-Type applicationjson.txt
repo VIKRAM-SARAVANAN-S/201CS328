@@ -1,0 +1,42 @@
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.32.3
+Accept: */*
+Postman-Token: c2a0731a-12b2-46b3-85f5-19214a65ca3f
+Host: 20.244.56.144
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 208
+
+
+
+
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODk5MzgyMTQsImNvbXBhbnlOYW1lIjoiVHJhaW4gQ2VudHJhbCIsImNsaWVudElEIjoiNjBmYzhkYzMtZTNkMC00NTZiLWJlZmYtZWJmOTQ1ZmE2OWI5Iiwib3duZXJOYW1lIjoiIiwib3duZXJFbWFpbCI6IiIsInJvbGxObyI6IjIwMDUxNzYxIn0.dB1MAsW7TRtoMjUg81kaAbM9VIZf08EZS6ZsaG8eoOw
+User-Agent: PostmanRuntime/7.32.3
+Accept: */*
+Postman-Token: 6619a433-d76c-4db3-a725-fb547a637656
+Host: 20.244.56.144
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 287
+Request Body
+Response Headers
+Date: Wed, 26 Jul 2023 05:50:02 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 19
+Connection: keep-alive
+X-Content-Type-Options: nosniff
+
+
+
+echo "# 201CS328" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/VIKRAM-SARAVANAN-S/201CS328.git
+git push -u origin main
+
+
+
+http://localhost:3000/numbers?url=http://20.244.56.144/numbers/primes&url=http://20.244.56.144/numbers/fibo&url=http://20.244.56.144/numbers/odd
